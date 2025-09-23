@@ -45,24 +45,6 @@ The system operates on three moisture levels:
 - **Medium (400-700)**: Yellow LED + pump off
 - **Wet (<400)**: Green LED + pump off
 
-## Circuit Connections
-
-**Soil Moisture Sensor:**
-- VCC → 5V
-- GND → Ground
-- A0 → Pin A0
-
-**LEDs with Resistors:**
-- Green LED → Pin 13
-- Yellow LED → Pin 12  
-- Red LED → Pin 11
-- All cathodes → Ground
-
-**Servo Motor:**
-- Red wire → 5V
-- Brown/Black wire → Ground
-- Orange wire → Pin 9
-
 ## How It Works
 
 1. **Continuous Monitoring**: Arduino reads analog values from moisture sensor every second
@@ -79,19 +61,6 @@ The system operates on three moisture levels:
 - **Water Efficiency**: Only waters when necessary
 - **Scalable Design**: Easy to expand with multiple sensors
 - **Low Power**: Efficient Arduino-based operation
-
-## Testing Results
-
-**Functionality**: ✅ All components working correctly
-- Moisture sensor provides accurate analog readings
-- LEDs respond appropriately to different moisture levels
-- Servo motor activates and deactivates as programmed
-- System responds within 1-second intervals
-
-**Technical Performance**:
-- Response time: <1 second
-- Watering duration: 2 seconds per cycle
-- Power consumption: Low (Arduino + minimal components)
 
 ## Future Improvements
 
