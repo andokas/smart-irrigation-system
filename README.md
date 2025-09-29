@@ -107,7 +107,7 @@ The Smart Irrigation System is an Arduino-based automated solution that combines
 
 ### Photo
 
-![schema](image.png) | ![image](Smart_Irrigation_System.png)
+![schema](schema.png) | ![image](Smart_Irrigation_System.png)
 
 ## What Works / What Didn't
 
