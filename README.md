@@ -50,22 +50,25 @@ The Smart Irrigation System is an Arduino-based automated solution that combines
 
 ## Parts List
 
-| Component | Quantity | Purpose |
-|-----------|----------|---------------|---------|
-| Arduino Uno R3 | 1 | Main microcontroller |
-| Soil Moisture Sensor | 1 | Detects soil humidity |
-| TMP36 Temperature Sensor | 1 | Monitors ambient temperature |
-| Micro Servo SG90 | 1 | Simulates water pump |
-| LED - Green | 1 | Wet soil indicator |
-| LED - Yellow | 1 | Medium moisture indicator |
-| LED - Red | 1 | Dry soil indicator |
-| LED - Blue | 1 | Manual mode indicator |
-| Piezo Buzzer | 1 | Temperature alert audio |
-| Pushbutton | 1 | Manual watering trigger |
-| Resistor 220Ω | 4 | LED current limiting |
-| Breadboard | 2 | Circuit assembly |
-| Jumper Wires | 25 | Component connections |
-| USB Cable | 1 | Arduino power and programming |
+## Parts List
+
+| Component               | Quantity | Purpose                        |
+|-------------------------|----------|--------------------------------|
+| Arduino Uno R3          | 1        | Main microcontroller           |
+| Soil Moisture Sensor    | 1        | Detects soil humidity          |
+| TMP36 Temperature Sensor| 1        | Monitors ambient temperature   |
+| Micro Servo SG90        | 1        | Simulates water pump           |
+| LED - Green             | 1        | Wet soil indicator             |
+| LED - Yellow            | 1        | Medium moisture indicator      |
+| LED - Red               | 1        | Dry soil indicator             |
+| LED - Blue              | 1        | Manual mode indicator          |
+| Piezo Buzzer            | 1        | Temperature alert audio        |
+| Pushbutton              | 1        | Manual watering trigger        |
+| Resistor 220Ω           | 4        | LED current limiting           |
+| Breadboard              | 2        | Circuit assembly               |
+| Jumper Wires            | 25       | Component connections          |
+| USB Cable               | 1        | Arduino power and programming  |
+
 
 ## Wiring Diagram / Photo / Schematic
 
